@@ -28,7 +28,7 @@ header{
 .Article{
 	margin-left:10px;
 	padding:5px;
-	box-sizing:bord;
+	box-sizing:border-box;
 }
 section{
 	display:flex;
