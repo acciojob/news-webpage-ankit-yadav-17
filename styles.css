@@ -8,19 +8,19 @@ header{
 	text-align:center;
 	padding:10px;
 }
-.Main{
+.latest-news-section{
 	text-align:center;
 	margin-left:2px;
 	margin-right:2px;
 	height:200px;
 	box-siziing:border-box;
 }
-.News, .Main,.Article{
+.pictorial-news-section, .latest-news-section,.Article{
 	background-color:white;
 	border:none;
 	border-radius:20px;
 }
-.News{
+.pictorial-news-section{
 	display:flex;
 	flex-flow:column;
 	height:auto;
@@ -39,7 +39,7 @@ img{
 	height:100px;
 	padding:10px;
 }
-h2{
+h3{
 	text-align:center;
 }
 .list{
