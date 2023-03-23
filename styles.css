@@ -12,6 +12,7 @@ header{
 	text-align:center;
 	margin-left:2px;
 	margin-right:2px;
+	height:200px;
 	box-siziing:border-box;
 }
 .News, .Main,.Article{
@@ -22,13 +23,14 @@ header{
 .News{
 	display:flex;
 	flex-flow:column;
-	height:80vh;
+	height:auto;
 	margin-right:10px;
 }
 .Article{
 	margin-left:10px;
 	padding:5px;
-	box-sizing:border-box;
+	height:150px;
+	min-width:30vw;
 }
 section{
 	display:flex;
@@ -38,5 +40,8 @@ img{
 	padding:10px;
 }
 h2{
+	text-align:center;
+}
+.list{
 	text-align:center;
 }
